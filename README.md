@@ -1,4 +1,4 @@
- 📚 Course Assigning Project Using MERN
+ 📚 **Course Assigning Project Using MERN**
 
 A full-stack **MERN** web application to manage students and courses, allowing admins to assign multiple courses to students and view detailed records. Built using **MongoDB**, **Express.js**, **React (Vite)**, and **Node.js**.
 
