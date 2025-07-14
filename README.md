@@ -31,20 +31,21 @@ A full-stack **MERN** web application to manage students and courses, allowing a
 ## 📁 Project Structure
 Course_Assign_Project_Using_MERN/
 │
-├── frontend/ # React (Vite) frontend
-│ ├── src/ # React components and logic
-│ ├── public/
-│ ├── package.json
-│ └── vite.config.js
+├── frontend/         # React (Vite) frontend
+│   ├── src/          # React components and logic
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
 │
-├── backend/ # Node.js + Express backend
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # API route handlers
-│ ├── index.js # Server entry point
-│ └── package.json
+├── backend/       # Node.js + Express backend
+│   ├── models/    # Mongoose schemas
+│   ├── routes/     # API route handlers
+│   ├── index.js      # Server entry point
+│   └── package.json
 │
 ├── .gitignore
 └── README.md
+
 
 
 
