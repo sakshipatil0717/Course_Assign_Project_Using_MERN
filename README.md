@@ -61,19 +61,23 @@ npm run dev
 
 🌐 API Endpoints
 👨‍🎓 Student Routes
-Method	Endpoint	Description
-GET	/api/student	Get all students
-POST	/api/student	Add a student
-PUT	/api/student/:id	Update a student
-DELETE	/api/student/:id	Delete a student
+| Method | Endpoint           | Description      |
+| ------ | ------------------ | ---------------- |
+| GET    | `/api/student`     | Get all students |
+| POST   | `/api/student`     | Add a student    |
+| PUT    | `/api/student/:id` | Update a student |
+| DELETE | `/api/student/:id` | Delete a student |
+
 
 
 📘 Course Routes
-Method	Endpoint	Description
-GET	/api/course	Get all courses
-POST	/api/course	Add a course
-PUT	/api/course/:id	Update a course
-DELETE	/api/course/:id	Delete a course
+| Method | Endpoint          | Description     |
+| ------ | ----------------- | --------------- |
+| GET    | `/api/course`     | Get all courses |
+| POST   | `/api/course`     | Add a course    |
+| PUT    | `/api/course/:id` | Update a course |
+| DELETE | `/api/course/:id` | Delete a course |
+
 
 
 📎 Assigned Course Routes
