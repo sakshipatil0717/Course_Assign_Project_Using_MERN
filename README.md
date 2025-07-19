@@ -1,18 +1,18 @@
- 📚 **Course Assigning Project Using MERN**
+# 📚 Course Assigning Project – MERN Stack
 
-A full-stack **MERN** web application to manage students and courses, allowing admins to assign multiple courses to students and view detailed records. Built using **MongoDB**, **Express.js**, **React (Vite)**, and **Node.js**.
+A MERN Stack web application for managing students and assigning courses.  
+Built with **React (Vite)**, **Node.js**, **Express**, and **MongoDB**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- Add, edit, and delete students
-- Add, edit, and delete courses
-- Assign multiple courses to students
-- View assigned courses with student and course details populated
-- Fast and responsive UI with React + Vite
-- RESTful API for all resources
-- MongoDB for persistent data storage
+- Add, edit, and delete **students**, **courses**, and **assigned courses**
+- Assign **multiple courses** to students
+- View assigned courses with **populated student and course details**
+- Fast and modern UI using **Vite + React**
+- RESTful API with Express & MongoDB
+- Secure and efficient backend
 
 ---
 
@@ -28,18 +28,46 @@ A full-stack **MERN** web application to manage students and courses, allowing a
 
 ---
 
-## 📁 Project Structure
-<img width="566" height="544" alt="image" src="https://github.com/user-attachments/assets/ced7e330-0d83-45ae-a3c0-b336cebab67f" />
 
 
+## 📂 Project Structure
+
+<pre>
+Course_Assign_Project_Using_MERN/
+│
+├── frontend/               # Vite React Frontend
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/                # Express Backend
+│   ├── models/             # MongoDB Models
+│   ├── routes/             # API Routes
+│   ├── index.js            # Entry Point
+│   └── package.json
+│
+├── .gitignore
+└── README.md
+</pre>
+
+---
 
 
-1. Setup Backend
+##  Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/sakshipatil0717/Course_Assign_Project_Using_MERN.git
+cd Course_Assign_Project_Using_MERN
+
+2️⃣ Backend Setup
 cd backend
 npm install
 npm start
 
-2. Setup Frontend
+3️⃣ Frontend Setup
 cd ../frontend
 npm install
 npm run dev
